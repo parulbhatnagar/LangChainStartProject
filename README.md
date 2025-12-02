@@ -10,6 +10,7 @@ This repository contains different notebooks with step-by-step implementations f
 |----------|-------------|--------------|
 | `basicAgent.ipynb` | Introduction to creating a simple agent that can answer questions and call tools. Demonstrates basic agent setup with a weather tool. | `create_agent`, Tools, Basic LLM Integration, Function Calling |
 | `weatherAgentWithTools.ipynb` | A practical weather forecasting agent demonstrating production-ready concepts including detailed system prompts, tool integration, structured output, conversational memory, and runtime context injection. | System Prompts, Tool Runtime Context, Structured Output, InMemorySaver, Conversational Memory, Context Schema |
+| `simpleChatBot.ipynb` | A simple chatbot with memory using LangChain's message history utilities. Demonstrates conversational memory and session management. | ChatMessageHistory, RunnableWithMessageHistory, Memory, Session Management |
 
 ## Getting Started
 
@@ -37,6 +38,7 @@ This repository contains different notebooks with step-by-step implementations f
 
 - `basicAgent.ipynb` - Simple agent implementation
 - `weatherAgentWithTools.ipynb` - Advanced agent with tools and memory
+- `simpleChatBot.ipynb` - Simple chatbot with memory
 - `.env` - Environment variables (not committed to git)
 - `README.md` - This file
 
